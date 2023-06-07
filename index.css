@@ -1,0 +1,66 @@
+body {
+    background-color: blue;
+    color: white
+}
+
+
+
+#small,
+#medium {
+    display: none;
+}
+
+#large p {
+  font-size: 70px
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: green
+    }
+
+    #large {
+        display:block;
+
+    }
+
+
+    #medium {
+        display:block;
+    }
+
+    #small {
+        display:block;
+       
+    }
+
+    #medium p {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        background-color: red;
+    }
+
+    #large {
+        display:block;
+
+    }
+
+    #medium {
+        display:block;
+    }
+
+    #small {
+        display:block;
+    }
+  #small p {
+    font-size: 30px;
+  }
+}
